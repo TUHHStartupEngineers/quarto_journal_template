@@ -61,12 +61,5 @@
     "title": "My Lab Journal",
     "section": "How to use",
     "text": "How to use\n\nAccept the assignment and get your own github repo.\nBlog/journal what you are doing in R, by editing the .qmd files.\nSee the links page for lots of helpful links on learning R.\nChange everything to make it your own."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
