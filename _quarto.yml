@@ -30,8 +30,8 @@ website:
 format:
   html:
     theme:
-      light: darkly
-      dark: litera
+      dark: darkly
+      light: flatly
     highlight-style: a11y-dark
 filters:
    - lightbox

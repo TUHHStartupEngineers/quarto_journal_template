@@ -33,7 +33,7 @@ jobs:
         run: sudo npm install -g staticrypt
         
       - name: Encrypt index
-        run: find . -type f -name "*.html" -exec staticrypt {} -p ${{ secrets.WEBSITE_TOKEN }} -o {} -d "./" --template-color-primary "#006a81" --template-color-secondary "#00C1D4" \;
+        run: find . -type f -name "*.html" -exec staticrypt {} -p ${{ secrets.WEBSITE_TOKEN }} --short -o {} -d "./" --template-color-primary "#006a81" --template-color-secondary "#00C1D4" \;
         
       - name: Commit files
         run: |
