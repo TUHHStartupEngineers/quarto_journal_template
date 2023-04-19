@@ -45,6 +45,6 @@ Every github repository has the capability of serving html files (web page files
 3. clone the website repo to your local computer
 4. Open up the project file in the folder for your repo on your local computer (.rproj file)
 5. Edit the .qmd files in R-studio
-6. Recompile website (render website when index.rmd is loaded), or knit individual .qmd files
-7. Send your changes back to the online github repository (note this can be done in github desktop, or directly in R-studio, in R-studio you will see a git tab if you are working in a git repo. Click the git tab, click the diff button, which will show you if there are any new changes. Click each of the files that you want to commit. Write a short note to describe the changes. Press the commit button. Wait a couple seconds, your changes should now be served on your website).
+6. Recompile website (render website when index.qmd is loaded), or knit individual .qmd files
+7. Send your changes back to the online github repository (note this can be done in github desktop, or directly in R-studio, in R-studio you will see a git tab if you are working in a git repo. Click the git tab, click the diff button, which will show you if there are any new changes. Click each of the files that you want to commit. Write a short note to describe the changes. Press the commit button. Press the push button. Wait a couple seconds, your changes should now be served on your website).
 
